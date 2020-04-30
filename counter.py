@@ -44,7 +44,7 @@ counter = 0
 for line in open(fileName, 'r'):
         counter += 1
 if counter == 1:
-    print(color.RED + "There was " + color.END, color.BOLD + "1" + color.END, color.RED + " line." + color.END)
+    print(color.RED + "There was" + color.END, color.BOLD + str(counter) + color.END, color.RED + "line." + color.END)
 else:
     print(color.RED + "There were" + color.END, color.BOLD + str(counter) + color.END, color.RED + "lines." + color.END)
 
